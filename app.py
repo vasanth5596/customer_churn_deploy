@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 app=Flask(__name__,template_folder='template')
-df=pd.read_csv("D:\\customer_churn_dataset.csv")
+df=pd.read_csv("customer_dataset.csv")
 pipe=pickle.load(open('knnmodel.pkl','rb'))
 
 @app.route("/")
