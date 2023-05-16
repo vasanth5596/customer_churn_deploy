@@ -1,0 +1,13 @@
+gunicorn
+importlib-metadata
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
+zipp
+Flask
+scikit-learn
+numpy
+matplotlib
+pandas
+seaborn
